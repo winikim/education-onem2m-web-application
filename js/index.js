@@ -130,7 +130,7 @@ function init() {
         dustValue = sensors.dust;
         const dustDisplayName = calculateDust(dustValue);
         $('.temperature').empty();
-        $('.temperature').append(humidityValue);
+        $('.temperature').append(temperatureValue);
         $('.humidity').empty();
         $('.humidity').append(humidityValue);
         $('.dust').empty();
